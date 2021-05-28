@@ -19,7 +19,7 @@ echo "MySQL Shell successfully installed !"
 if [[ $(uname -r | sed 's/^.*\(el[0-9]\+\).*$/\1/') == "el8" ]]
 then
   dnf -y module enable php:remi-${php_version}
-  dnf -y install php php-cli php-mysqlnd php-zip php-gd php-mcrypt php-mbstring php-xml php-json php-fpm php-pecl-mysql-xdevapi
+  dnf -y install php php-cli php-mysqlnd php-zip php-gd php-mcrypt php-mbstring php-xml php-json php-fpm
   dnf -y install certbot mod_ssl
   dnf -y install git
 else

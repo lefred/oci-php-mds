@@ -195,5 +195,5 @@ variable "deploy_mds_ha" {
 
 variable "php_version" {
   description = "PHP Version to use"
-  default     = "8.0"
+  default     = "7.4"
 }
