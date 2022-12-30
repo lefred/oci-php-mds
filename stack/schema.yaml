@@ -1,7 +1,7 @@
 title: "PHP Web Server on OCI with MDS"
 description: "PHP and Apache Web Server on OCI with MySQL Database Service"
-schemaVersion: 1.1.0
-version: "20210905"
+schemaVersion: 1.2.0
+version: "20221230"
 locale: "en"
 
 
